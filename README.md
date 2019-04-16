@@ -23,7 +23,7 @@ All variables which can be overridden are stored in [defaults/main.yml](defaults
 | -------------- | ------------- | -----------------------------------|
 | `netdata_registry` | "" | Use custom netdata registry |
 | `netdata_notifications` | True | Enable email notifications. This feature uses `sendmail` command for sending emails which isn't configured by this role |
-| `netdata_version` | "HEAD" | Clone a certain version from GitHub. For possible value types see the [Ansible Git module doc](https://docs.ansible.com/ansible/latest/modules/git_module.html?highlight=version) |
+| `netdata_version` | "master" | Clone a certain version from GitHub. For possible value types see the [Ansible Git module doc](https://docs.ansible.com/ansible/latest/modules/git_module.html?highlight=version) |
 
 ## Example
 
